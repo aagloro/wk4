@@ -1,0 +1,27 @@
+var fs = require("fs");
+var input = fs.readFileSync(process.stdin.fd, "utf-8").trim().split("\n");
+var a = parseInt(input[0]);
+var b = parseInt(input[1]);
+
+
+//write your code here
+
+let pythagoras = (num1, num2) => Math.sqrt((num1*num2)+(num2*num2));
+
+
+
+/* Inttial - function myFunction (num1, num2)
+{ return Math.sqrt((num1*num2)+(num2*num2)); }
+*/ 
+
+/* let pythagoras = (a,b);
+{ console.log (Math.sqrt((a*b)+(b*b))); }
+*/
+
+/* SIDE NOTE:
+math.sqrt - Parameters. x. A number greater than or equal to 0. ; Return value. The square root of x , a nonnegative number. If x < 0 , returns NaN
+*/
+
+//do not change
+//for testing purposes
+console.log(pythagoras(a,b));
