@@ -1,0 +1,19 @@
+var fs = require("fs");
+var input = fs.readFileSync(process.stdin.fd, "utf-8").trim().split("\n");
+var a = parseInt(input[0]);
+var b = parseInt(input[1]);
+
+//write your code here
+
+let returnSum = (a,b) => a+b;
+
+
+
+
+
+
+
+
+//do not change
+//for testing purposes
+console.log(returnSum(a,b));
