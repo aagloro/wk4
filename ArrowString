@@ -1,0 +1,23 @@
+var fs = require("fs");
+var input = fs.readFileSync(process.stdin.fd, "utf-8").trim().split("\n");
+var a = parseInt(input[0]);
+
+
+
+//write your code here
+
+
+/*Convert the following function myFunction into an arrow function. Refer to the new function as returnNumber.
+
+function myFunction(num {
+    return 'Yournumber ${num};'
+})
+*/
+
+let returnNumber = (a) => (`Your number is ${a}`);
+   
+
+
+//do not change
+//for testing purposes
+console.log(returnNumber(a));
