@@ -1,0 +1,29 @@
+var fs = require("fs");
+var input = fs.readFileSync(process.stdin.fd, "utf-8").trim().split("\n");
+var a = parseInt(input[0]);
+
+//write your code here
+
+/* function myFunction(yearlyPayment){
+    let monthly = yearlyPayment / 12;
+    return monthly.toFixed(2);
+}
+*/
+
+/* SIDE NOTE:
+The toFixed() method returns a string representation of numObj that does not use exponential notation and has exactly digits digits after 
+*/
+
+let monthlyPayment = (yearlyPayment) =>{
+    let monthly = yearlyPayment / 12;
+    return monthly.toFixed(2);
+};
+
+
+
+
+
+
+//do not change
+//for testing purposes
+console.log(monthlyPayment(a));
