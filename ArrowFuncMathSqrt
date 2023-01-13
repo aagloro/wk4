@@ -10,7 +10,7 @@ let pythagoras = (num1, num2) => Math.sqrt((num1*num2)+(num2*num2));
 
 
 
-/* Inttial - function myFunction (num1, num2)
+/* Intial - function myFunction (num1, num2)
 { return Math.sqrt((num1*num2)+(num2*num2)); }
 */ 
 
